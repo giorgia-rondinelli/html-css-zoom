@@ -17,7 +17,7 @@ header{
 main{
   background-color: black;
   width: 100%;
-  height: calc(100vh - 80px);
+  height: calc(100vh - 70px);
   display: flex;
   justify-content: center;
   overflow: auto;
@@ -27,7 +27,7 @@ main{
 
 footer{
   background-color: rgb(34,34,34);
-  height: 80px;
+  height: 70px;
 }
 
 
@@ -122,13 +122,21 @@ footer{
 
 
 .btn div i{
-  font-size: 30px;
-  padding-bottom: 3px;
+  font-size: 25px;
+
 }
 .descrizione{
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .audio-video .btn:hover{
 color: rgb(75,200,0);
+}
+
+.schermo .btn:hover{
+  color: rgb(75,200,0); 
+}
+
+.attivo{
+  color: rgb(75,200,0);
 }
